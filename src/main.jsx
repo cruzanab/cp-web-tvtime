@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     element: <App/>,
     errorElement: <PageNotFound/>,
   },
-  {path: "biblioteca", element: <MyLibrary/>},
-  {path: "avaliacoes", element: <Reviews />}
+  {path: "/biblioteca", element: <MyLibrary/>},
+  {path: "/avaliacoes", element: <Reviews />}
 ]);
 
 createRoot(document.getElementById('root')).render(
