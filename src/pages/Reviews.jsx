@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MyLibrary = () => {
+const Reviews = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const MyLibrary = () => {
   )
 }
 
-export default MyLibrary
+export default Reviews
