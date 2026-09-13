@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    gap: 50vw;
+    border-bottom: 1px solid black;
+    background-color: #16171d;
+}
+
+.header > img{
+    width: 150px;
+}
+
+.header > .nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.header > .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
