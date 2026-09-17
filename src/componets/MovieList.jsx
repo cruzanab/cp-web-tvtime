@@ -1,26 +1,26 @@
 import MovieCard from "./MovieCard";
+import posterStrangerThings from "../assets/posterStrangerThings.webp"
+import posterBreakingBad from "../assets/posterBreakingBad.webp"
+import posterTLOU from "../assets/posterTLOU.webp"
+import posterLoki from "../assets/posterLoki.webp"
 
 const MovieList = () => {
   const movies = [
     {
       title: "Stranger Things",
-      poster:
-        "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      poster: posterStrangerThings,
     },
     {
       title: "Breaking Bad",
-      poster:
-        "https://image.tmdb.org/t/p/w500/ztkUQFLlC2s6pC8vJ6r4Nq7aQ9H.jpg",
+      poster: posterBreakingBad,
     },
     {
       title: "The Last Of Us",
-      poster:
-        "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+      poster: posterTLOU,
     },
     {
       title: "Loki",
-      poster:
-        "https://image.tmdb.org/t/p/w500/voHUmluYmKyleFkTu3lOXQG702u.jpg",
+      poster: posterLoki,
     },
   ];
 

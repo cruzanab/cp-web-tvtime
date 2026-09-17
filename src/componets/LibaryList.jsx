@@ -1,29 +1,29 @@
 import LibraryCard from "./LibraryCard";
+import posterInterstelar from "../assets/posterInterstelar.webp"
+import posterOppenheimer from "../assets/posterOppenheimer.webp"
+import posterDuna from "../assets/posterDuna.webp"
+import posterBatman from "../assets/posterBatman.webp"
 
 const LibaryList = () => {
     const movies = [
         {
             title: "Interestelar",
-            poster:
-                "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+            poster: posterInterstelar,
             rating: 5,
         },
         {
             title: "Oppenheimer",
-            poster:
-                "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+            poster: posterOppenheimer,
             rating: 4,
         },
         {
             title: "Duna",
-            poster:
-                "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+            poster: posterDuna,
             rating: 5,
         },
         {
             title: "The Batman",
-            poster:
-                "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+            poster: posterBatman,
             rating: 4,
         },
     ];
